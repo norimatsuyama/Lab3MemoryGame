@@ -11,7 +11,7 @@ import SwiftUI
 struct Lab3_Matsuyama_BurdenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: CatMemoryGame())
         }
     }
 }

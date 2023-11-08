@@ -14,6 +14,8 @@
 		2C426E8B2AF6D081000F027F /* Lab3_Matsuyama_BurdenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C426E8A2AF6D081000F027F /* Lab3_Matsuyama_BurdenTests.swift */; };
 		2C426E952AF6D081000F027F /* Lab3_Matsuyama_BurdenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C426E942AF6D081000F027F /* Lab3_Matsuyama_BurdenUITests.swift */; };
 		2C426E972AF6D081000F027F /* Lab3_Matsuyama_BurdenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C426E962AF6D081000F027F /* Lab3_Matsuyama_BurdenUITestsLaunchTests.swift */; };
+		2C426EA42AF6D2BD000F027F /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C426EA32AF6D2BD000F027F /* MemoryGame.swift */; };
+		2C426EA62AF6D2CB000F027F /* CatMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C426EA52AF6D2CB000F027F /* CatMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2C426E902AF6D081000F027F /* Lab3_Matsuyama_BurdenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3_Matsuyama_BurdenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C426E942AF6D081000F027F /* Lab3_Matsuyama_BurdenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_Matsuyama_BurdenUITests.swift; sourceTree = "<group>"; };
 		2C426E962AF6D081000F027F /* Lab3_Matsuyama_BurdenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3_Matsuyama_BurdenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C426EA32AF6D2BD000F027F /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		2C426EA52AF6D2CB000F027F /* CatMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				2C426E792AF6D07D000F027F /* Lab3_Matsuyama_BurdenApp.swift */,
 				2C426E7B2AF6D07D000F027F /* ContentView.swift */,
+				2C426EA32AF6D2BD000F027F /* MemoryGame.swift */,
+				2C426EA52AF6D2CB000F027F /* CatMemoryGame.swift */,
 				2C426E7D2AF6D081000F027F /* Assets.xcassets */,
 				2C426E7F2AF6D081000F027F /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C426EA42AF6D2BD000F027F /* MemoryGame.swift in Sources */,
+				2C426EA62AF6D2CB000F027F /* CatMemoryGame.swift in Sources */,
 				2C426E7C2AF6D07D000F027F /* ContentView.swift in Sources */,
 				2C426E7A2AF6D07D000F027F /* Lab3_Matsuyama_BurdenApp.swift in Sources */,
 			);
